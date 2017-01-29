@@ -1,0 +1,1 @@
+alter table tbl_dept add vrchr_dept_description varchar(20);

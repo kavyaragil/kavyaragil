@@ -1,0 +1,2 @@
+create table tbl_dept(pk_int_dept_id int(10) auto_increment,
+vrchr_dept_Name varchar(25),primary key(pk_int_dept_id));

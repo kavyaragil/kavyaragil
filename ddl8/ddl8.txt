@@ -1,0 +1,5 @@
+create table tbl_entrollment(pk_int_entrollment_id 
+int(11) auto_increment,int_count int(11),
+fk_int_class_id int(11),primary key(pk_int_entrollment_id),
+foreign key(fk_int_class_id) 
+references tbl_classes(pk_int_class_id);

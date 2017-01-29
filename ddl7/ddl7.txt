@@ -1,0 +1,5 @@
+create table tbl_classes(pk_int_class_id int(11) auto_increment,
+vrchr_class_name varchar(20),
+fk_int_dept_id int(11),primary key(pk_int_class_id),
+foreign key(fk_int_dept_id) 
+references tbl_dept(pk_int_dept_id));
